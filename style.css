@@ -39,17 +39,6 @@ footer{
 }
 
 
-#Heart{
-
- 
-
-}
-
-#Mark{
-
-  
-
-}
 
 
 
@@ -118,3 +107,28 @@ footer{
   text-align: center;
  }
 
+
+ #Heart{
+
+  display: flex;
+  justify-content: end;
+
+ }
+
+ #Mark{
+
+  display: flex;
+  justify-content: end;
+  
+ }
+
+ i {
+
+ font-size: 30px;
+
+ }
+
+ #Coment{
+  margin-bottom: 0px;
+
+ }
