@@ -143,11 +143,10 @@ i {
 .pose{
   position: relative;
   bottom:140px;
- left: 150px;
+ left: -30px;
 }
  
-.backgroud_menu{
+.show{
 
-color bg-body-tertiary;
-
+  height:130px ;
 }
