@@ -5,6 +5,8 @@
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+    border: 1px solid #ebf1f6 !important;
 }
    
 footer{
@@ -38,11 +40,6 @@ footer{
 
 }
 
-
-
-
-
-
 .col{
 
     text-align: center;
@@ -65,44 +62,44 @@ footer{
     display: inline-block;
   }
   
-  .pagination a {
+.pagination a {
     color: black;
     float: left;
     padding: 8px 16px;
     text-decoration: none;
   }
   
-  .pagination a.active {
+.pagination a.active {
     background-color: #4CAF50;
     color: white;
     border-radius: 5px;
-  }
+}
   
-  .pagination a:hover:not(.active) {
+.pagination a:hover:not(.active) {
     background-color: #ddd;
     border-radius: 5px;
-  }
+}
   
 
-  #number{
+#number{
 
     color:white;
   }
 
-  #titulo{
+#titulo{
 
     margin-top: 40px;
     margin-bottom: 40px;
 
   }
 
- #contatext{
+#contatext{
 
   text-align: justify;
  }
 
 
- .imagem-p{
+.imagem-p{
 
   text-align: center;
   object-fit: cover;
@@ -110,27 +107,47 @@ footer{
  }
 
 
- #Heart{
+#Heart{
 
   display: flex;
   justify-content: end;
 
  }
 
- #Mark{
+#Mark{
 
   display: flex;
   justify-content: end;
   
  }
 
- i {
+i {
 
  font-size: 30px;
 
  }
 
- #Coment{
+#Coment{
   margin-bottom: 0px;
 
  }
+
+#testezao{
+
+  background-image: url(./img/Paisagem.jpg);
+
+ }
+
+
+
+.pose{
+  position: relative;
+  bottom:140px;
+ left: 150px;
+}
+ 
+.backgroud_menu{
+
+color bg-body-tertiary;
+
+}
