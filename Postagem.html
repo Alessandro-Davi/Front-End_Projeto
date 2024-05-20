@@ -171,7 +171,8 @@
       
 
     <div class="d-flex justify-content-end">
-      <p> A data está aqui</p>
+      <time class="published" datetime="2015-11-01"> {{ \Carbon\Carbon::createFromFormat('d-n-Y h', $value->created_at)->toDateTimeString() }} A data está aqui</time>
+      <time class="published" datetime="2015-11-01"> {{ \Carbon\Carbon::parse($value->created_at)->diffForHumans() }}</time>
     </div>
 
   
